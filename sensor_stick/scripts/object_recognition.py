@@ -23,8 +23,6 @@ def get_normals(cloud):
 # Callback function for your Point Cloud Subscriber
 def pcl_callback(pcl_msg):
 
-# Exercise-2 TODOs:
-
     # TODO: Convert ROS msg to PCL data
     cloud = ros_to_pcl(pcl_msg)
 
@@ -119,8 +117,6 @@ def pcl_callback(pcl_msg):
     pcl_objects_pub.publish(ros_cloud_objects)
     pcl_table_pub.publish(ros_cloud_table)
     pcl_cluster_pub.publish(ros_cluster_cloud)
-
-# Exercise-3 TODOs: 
 
     # Classify the clusters! (loop through each detected cluster one at a time)
     # Classify the clusters!
