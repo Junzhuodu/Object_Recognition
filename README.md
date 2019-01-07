@@ -56,3 +56,13 @@ $ rosrun sensor_stick train_svm.py
 
 If everything went well you now have a trained classifier and you're ready to do object recognition!  
 
+```sh
+$ rosrun sensor_stick robot_spawn.launch
+```
+In another terminal
+```sh
+$ chmod +x object_recognition.py
+$ ./object_recognition.py
+```
+
+
