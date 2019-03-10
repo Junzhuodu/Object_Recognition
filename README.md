@@ -64,5 +64,6 @@ In another terminal
 $ chmod +x object_recognition.py
 $ ./object_recognition.py
 ```
+![image](./images/image1.png)
 
 
